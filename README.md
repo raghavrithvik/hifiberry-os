@@ -79,7 +79,7 @@ curl -Ls https://tinyurl.com/hbosrepo | bash
 The install-all script will install the minimal base packages:
 
 ```
-curl -Ls https://raw.githubusercontent.com/hifiberry/hifiberry-os/refs/heads/hbosng/install-all | bash
+curl -Ls https://raw.githubusercontent.com/raghavrithvik/hifiberry-os/refs/heads/hbosng/install-all | bash
 ```
 
 ### Install all players

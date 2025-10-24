@@ -61,7 +61,7 @@ else
 fi
 
 sudo apt update -y
-sudo apt install -y hbos-minimal
+sudo apt install -y hbos-full
 
 # Base configuration
 sudo config-configtxt --default-config

@@ -61,7 +61,7 @@ else
 fi
 
 sudo apt update -y
-sudo apt install -y hbos-full
+sudo apt install -y hbos-minimal
 
 # Base configuration
 sudo config-configtxt --default-config
@@ -93,4 +93,4 @@ echo "Reloading systemd user manager..."
 systemctl --user daemon-reexec
 
 # Baeconfig - enable daemons
- sudo hifiberry-baseconfig
+ #sudo hifiberry-baseconfig
